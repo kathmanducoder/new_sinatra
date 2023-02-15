@@ -1,38 +1,53 @@
-# NewSinatra
+# new_sinatra
 
-Welcome to your new gem! In this directory, you'll find the files you need to be able to package up your Ruby library into a gem. Put your Ruby code in the file `lib/new_sinatra`. To experiment with that code, run `bin/console` for an interactive prompt.
-
-TODO: Delete this and the text above, and describe your gem
+## Description
+A Ruby utility gem that creates a new Sinatra app, like 'rails new' does for Rails.
 
 ## Installation
+Download the source code. An executable called 'new_sinatra' inside bin directory can be executed directly.
 
-Add this line to your application's Gemfile:
+To build a gem, run the following command in the root directory of this application:
 
-```ruby
-gem 'new_sinatra'
+```console
+gem build new_sinatra.gemspec
 ```
 
-And then execute:
+This will build a ruby gem for you, which you can install. To install this gem, execute:
 
-    $ bundle
+```console
+gem install new_sinatra-1.0.0.gem
+```
 
-Or install it yourself as:
-
-    $ gem install new_sinatra
+This will install an executable called new_sinatra in your machine. You should be able to execute this executable from anywhere now.
 
 ## Usage
+Once installed, you can use the program as follows:
 
-TODO: Write usage instructions here
+```console
+~> new_sinatra new_sinatra_app_name
+      create
+      create  app
+      create  app/controllers
+      create  app/controllers/application_controller.rb
+      create  app/models
+      create  app/views
+      create  app/views/layout.erb
+      create  app/views/index.erb
+      create  config
+      create  config/environment.rb
+      create  db
+      create  db/migrate
+      create  config.ru
+      create  CONTRIBUTING.md
+      create  Gemfile
+      create  Rakefile
+      create  README.md
+         run  git init inside new_sinatra_app_name
+Initialized empty Git repository in /Users/anupkhadka/Code/new_sinatra_app_name/.git/
 
-## Development
-
-After checking out the repo, run `bin/setup` to install dependencies. You can also run `bin/console` for an interactive prompt that will allow you to experiment.
-
-To install this gem onto your local machine, run `bundle exec rake install`. To release a new version, update the version number in `version.rb`, and then run `bundle exec rake release`, which will create a git tag for the version, push git commits and tags, and push the `.gem` file to [rubygems.org](https://rubygems.org).
-
-## Contributing
-
-Bug reports and pull requests are welcome on GitHub at https://github.com/[USERNAME]/new_sinatra.
+~/Code
+~>
+```
 
 ## License
 
