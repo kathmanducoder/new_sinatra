@@ -52,7 +52,8 @@ class NewSinatra::Main
     end
   
     def self.usage(error_msg)
-      puts "#{error_msg}. Usage: new_sinatra <sinatar_app_name> {--skip-database}"
+      puts "Error: #{error_msg}."
+      puts "Usage: new_sinatra <sinatra_app_name> {--skip-database}"
     end
   
   end
