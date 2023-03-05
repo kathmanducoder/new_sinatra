@@ -1,7 +1,7 @@
 # new_sinatra
 
 ## Description
-A Ruby utility gem that creates a new Sinatra app, like 'rails new' does for Rails.
+Sinatra equivalent of 'rails new'. This Ruby utility gem will help you get started with a brand new Sinatra app by laying out its file and project structure.
 
 This gem is available in rubygems. Check it out at:
 https://rubygems.org/gems/new_sinatra
